@@ -29,14 +29,14 @@ public class NoteController {
 
     //create new note (id is created automatically)
     @PostMapping()
-    public void createNote(@RequestBody Note note){
-        noteDao.save(note);
+    public Note createNote(@RequestBody Note note){
+        return noteDao.save(note);
     }
 
     //update note by id in object body
     @PutMapping("/update")
-    public void updateNote(@RequestBody Note note){
-        noteDao.save(note);
+    public Note updateNote(@RequestBody Note note){
+        return noteDao.edit(note);
     }
 
     //delete note by id

@@ -25,12 +25,14 @@ public class NoteDao {
         return repository.findById(note_id);
     }
 
-    public void save(Note note){
+    public Note save(Note note){
         repository.save(note);
+        return note;
     }
 
-    public void edit(Note note){
+    public Note edit(Note note){
         repository.save(note);
+        return note;
     }
 
     public void delete(Integer note_id){
