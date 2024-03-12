@@ -46,7 +46,7 @@ public class NoteController {
     }
 
     //delete all notes
-    @DeleteMapping("delete-all")
+    @DeleteMapping("/delete-all")
     public void deleteAllNotes(){
         noteDao.deleteAll();
     }
