@@ -1,5 +1,8 @@
 
 # Note API - Spring Boot Application (REST API for Note_App_API android client)
+![Java](https://img.shields.io/badge/java-21-orange)
+![SpringBoot](https://img.shields.io/badge/SpringBoot-3.2.3-blue)
+![Lombok](https://img.shields.io/badge/-CodeBlocks-blue)
 
 This Spring Boot application serves as a RESTful API backend for an Android note-taking application. It provides endpoints for managing notes stored in a MySQL database as well as datasave saving functionality (MYSQL datasave).
 
