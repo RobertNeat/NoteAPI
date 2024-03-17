@@ -12,6 +12,9 @@ This Spring Boot application serves as a RESTful API backend for an Android note
 - **Spring Boot Version**: 3.2.3
 - **Lombok Version**: 1.18.30
 
+Full specs: [start-spring-config](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.3&packaging=jar&jvmVersion=21&groupId=com.robert_neat&artifactId=NoteAPI&name=NoteAPI&description=Android%20Note%20app%20REST%20API%20with%20mysql%20database&packageName=com.robert_neat.note_api&dependencies=web,data-jpa)
+
+
 ## Routes
 
 ### Get all notes
